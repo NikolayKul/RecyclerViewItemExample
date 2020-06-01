@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="@color/book_list_divider" />
+
+    <size android:height="1dp" />
+
+    <padding
+        android:left="@dimen/margin_normal"
+        android:right="@dimen/margin_normal" />
+
+    <corners android:radius="10dp" />
+
+</shape>

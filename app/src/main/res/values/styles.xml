@@ -1,0 +1,54 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="Omnibox" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/omnibox_background</item>
+        <item name="android:inputType">text</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/omnibox_text</item>
+        <item name="android:textColorHint">@color/omnibox_hint</item>
+        <item name="android:textCursorDrawable">@drawable/omnibox_cursor</item>
+    </style>
+
+    <style name="BookList">
+        <item name="android:background">@color/book_list_background</item>
+    </style>
+
+    <style name="BookItemSingle" />
+
+    <style name="BookItemSingle.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/book_item_title</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="BookItemSingle.Subtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/book_item_single_subtitle</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="BookGalleryItem" />
+
+    <style name="BookGalleryItem.Title">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/book_item_title</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+</resources>

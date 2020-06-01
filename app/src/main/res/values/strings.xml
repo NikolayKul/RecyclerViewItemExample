@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ViewItem Example</string>
+    <string name="omnibox_hint">Enter query here…</string>
+</resources>

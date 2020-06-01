@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="container_background">#ffcc00</color>
+
+    <color name="omnibox_background">#3D3D3D</color>
+    <color name="omnibox_text">#FFF</color>
+    <color name="omnibox_hint">#66FFFFFF</color>
+    <color name="omnibox_border">#494949</color>
+    <color name="omnibox_cursor">#0077cc</color>
+
+    <color name="book_list_background">#3D3D3D</color>
+    <color name="book_list_divider">#262626</color>
+
+    <color name="book_item_single_background_ripple">#80646464</color>
+    <color name="book_item_title">#ffcc00</color>
+    <color name="book_item_single_subtitle">#F0F0F0</color>
+
+</resources>

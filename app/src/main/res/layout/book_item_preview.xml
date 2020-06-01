@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/size_big"
+    android:layout_height="@dimen/size_huge"
+    android:layout_marginTop="@dimen/margin_small"
+    tools:showIn="@layout/book_item_gallery">
+
+    <com.nikolaykul.recyclerviewitemexample.widgets.ColorLoadingView
+        android:id="@+id/color_loading_view"
+        android:layout_width="@dimen/size_normal"
+        android:layout_height="@dimen/size_normal"
+        app:layout_constraintBottom_toTopOf="@+id/title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/BookGalleryItem.Title"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/color_loading_view"
+        tools:text="@tools:sample/lorem/random" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
